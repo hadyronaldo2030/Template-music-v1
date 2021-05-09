@@ -1,0 +1,431 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+	<!--	معادل ترميز اللغة	 -->
+	<meta charset="UTF-8">
+	<!--	دعم الموبايل	   -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music-Home-bootstrap</title>
+	
+	<!--	استدعاء ملف البوتستراب	-->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!--	css استدعاء		-->
+	<link href="css/index-style.css" rel="stylesheet">
+
+</head>
+<!--	========================================================	-->
+<body class="bg-light img-fluid" id="logo">
+
+	<!--	Srart navbar	-->
+	<nav class="navBar navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	  <div class="container">
+		<a class="navbar-brand" href="index.html"><span class="text-primary"><strong>M</strong></span><span class="text-danger"><strong>usic</strong></span></a>
+		<button class="navbar-toggler w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon "></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		  <ul class="navbar-nav">
+			<li class="nav-item ">
+			  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index-login.html">login</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Pricing</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				Dropdown link
+			  </a>
+			  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				<li><a class="dropdown-item" href="#">Action</a></li>
+				<li><a class="dropdown-item" href="#">Another action</a></li>
+				<li><a class="dropdown-item" href="#">Something else here</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		<form class="d-flex m-auto">
+			<input class="rounded-3 " type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-danger w-25" type="submit">Search</button>
+		</form>
+		</div>
+
+		<a href="index-login.html" class="btn btn-outline-danger  d-xs-none d-sm-none d-md-none d-lg-flex">login</a>
+	  </div>
+	</nav>
+	<!--	End navbar	-->
+
+	
+	<!-- Start slider -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+	  </div>
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img src="img/entertainment_music_guitars_strings_musical_instuments_1920x1080.jpg" class="d-block w-100 div-carousel" alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="img/dub_music_speakers_loud_dj_electronic_trance_art_psychedelic_military_tank_cartoon_battle_war_1920x1091.jpg" class="d-block w-100 div-carousel" alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="img/Headphones_music_headpool_1920x1200.jpg" class="d-block w-100 div-carousel " alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="img/anghami-screenshot-1024x597.jpg" class="d-block w-100 div-carousel " alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="img/anghamiplus_en.jpg" class="d-block w-100 div-carousel " alt="...">
+		</div>
+		  
+		<div class="carousel-item">
+		  <img src="img/light_black_and_white_music_sound_dj_panel_2560x1600.jpg" class="d-block w-100 div-carousel " alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="img/metallica_bands_groups_music_entertainment_heavy_metal_hard_rock_thrash_1800x1350.jpg" class="d-block w-100 div-carousel " alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="img/Headphones_music_black_background_1920x1200.jpg" class="d-block w-100 div-carousel" alt="...">
+		</div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+	<!-- End slider	 -->
+	
+	
+	<!-- Start Offer-->
+	<h1 class="text-center"> <span>Top</span> Offer </h1>
+	<div class="offer">
+		<div class="container">
+			<div class="row ">
+				<div class="col-lg-6 col-md-6"  data-wow-duration="1.5s" data-wow-delay=".5s">
+					<img class="offer-img" src="img/pngaaa.com-1006933.png" alt="band">
+				</div>
+				<div class="col-lg-6 col-md-6 offer-sum text-xs-center text-lg-start"  data-wow-duration="1.5s" data-wow-delay=".5s">
+					
+					<h1 class="mb-4">Headphones </h1>
+					<p>Exclusively Available On Order</p>
+					<small>S460 Wireless Bluetooth Headset with Memory Card Reader and FM Radio Beats Design.S460 Wireless Bluetooth Headset with Memory Card Reader and FM Radio Beats Design</small>
+					<button type="button" class="btn btn-danger mt-4 w-25 d-block mx-xs-auto m-lg-0 p-2">Buy Now</button>
+				</div>
+			</div>		
+		</div>
+	</div>
+	<!-- End Offer-->		
+	
+	<!-- Start product-->
+	<h1 class="text-center"> <span>Our  </span>Gallary </h1>
+	<div class="tab-content bg-dark" id="pills-tabContent">
+		<ul class="nav nav-pills mt-5 justify-content-center" id="pills-tab" role="tablist">
+		<li class="nav-item m-4" role="presentation">
+			<button class="btn-outline-primary nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+		</li>
+		<li class="nav-item m-4" role="presentation">
+			<button class="btn-outline-primary nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+		</li>
+		<li class="nav-item m-4" role="presentation">
+			<button class="nav-link btn-outline-primary" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+		</li>
+	</ul>
+		<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+			<div class="brands">
+				<div class="container">
+					<div class="row m-4 text-center">
+
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-elijah-o'donnell-3473525.jpg" class="card-img-top " alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-yuri-manei-2690323.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-marcio-nascimento-3653611.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="row m-4 text-center">
+
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-foteros-352505.jpg" class="card-img-top " alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-samet-kasik-235209.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-drew-williams-3568521.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+			<div class="brands">
+				<div class="container">
+					<div class="row m-4 text-center">
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-foteros-352505.jpg" class="card-img-top " alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-samet-kasik-235209.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-drew-williams-3568521.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="row m-4 text-center">
+
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-elijah-o'donnell-3473525.jpg" class="card-img-top " alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-yuri-manei-2690323.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-marcio-nascimento-3653611.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+			<div class="brands">
+				<div class="container">
+					
+					<div class="row m-4 text-center">
+
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-yuri-manei-2690323.jpg" class="card-img-top " alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-marcio-nascimento-3653611.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-elijah-o'donnell-3473525.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="row m-4 text-center">
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-foteros-352505.jpg" class="card-img-top " alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-samet-kasik-235209.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col my-4">
+							<div class="card m-auto" style="width: 18rem;">
+							  <img src="img/pexels-drew-williams-3568521.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- End product-->
+	
+	
+	
+	<!-- Start testimonial-->
+	<h1 class="text-center"> <span>about </span>developer </h1>
+	<div class="testimonial">
+		<div class="background-shadow">
+			<div class="container">
+				<div class="name-group ">
+					<div class="item row">
+
+						<div class="img-area col-xl-4 col-xs-12 text-center mt-5">
+							<img src="img/WhatsApp Image 2021-04-20 at 4.04.13 AM.jpeg"  alt="Hady">
+							<h4 class="name-coder">Eng Hady</h4>
+						</div>
+						<div class="img-area col-xl-6 mt-5   d-lg-inline-block d-xs-none d-sm-none d-md-none">
+							<h4 class="name-coder">Our mission</h4>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End testimonial-->
+	
+	<!-- Start Footer  -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<li class="col-lg-4 col col-xs-12 col-sm-12 list-unstyled center-box mt-5">
+					<a class="navbar-brand" href="#"><span class="text-primary"><strong>M</strong></span><span class="text-danger"><strong>usic</strong></span></a>
+				
+					<div class="col-lg-4 col-xs-12 col-sm-12 footer-left ">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos saepe ipsam commodi illo, ipsa mollitia debitis tempore,</p>
+						<div class="socials">
+							<a href=""><i class="fab fa-facebook"></i></a>
+							<a href=""><i class="fab fa-twitter"></i></a>
+							<a href=""><i class="fab fa-whatsapp"></i></a>
+							<a href=""><i class="fab fa-youtube"></i></a>
+							<a href=""><i class="fab fa-google"></i></a>
+						</div>
+					</div>
+				
+				</li>
+				<li class="col-lg-4 col col-xs-12 col-sm-12 list-unstyled center-box mt-5">
+					<h2 class="m-auto">Address</h2>
+					<ul class="col list-unstyled box-addres">
+						<li>
+							<span class="fas fa-map-marker-alt hvr-icon-drop"></span>
+							<span class="text">Loction</span>
+						</li>
+						<li>
+							<span class="fas fa-phone-alt hvr-icon-buzz"></span>
+							<span class="text">+20-1030804922</span>
+						</li>
+						<li>
+							<span class="fas fa-envelope hvr-icon-pulse-grow"></span>
+							<span class="text"><a href="">hady@gmail.com</a></span>
+						</li>
+						<li class=" hvr-icon-bob">
+							<span class="fas fa-info-circle hvr-icon-bob"></span>
+							<span class="text"><a href="">More Info</a></span>
+						</li>
+
+					</ul>
+				</li>
+				<li class="features col-lg-4 col col-xs-12 col-sm-12 list-unstyled mt-5">
+					<h2 class="m-auto">Contact Us</h2>
+					<ul class="contact col list-unstyled">
+						<form action="#">
+							<div class="email">
+								<div class="text">Email</div>
+								<input placeholder="@gmail.com" type="email"  required>
+							</div>
+							<div class="msg">
+								<div class="text">Massage</div>
+								<textarea  cols="25" rows="2" required></textarea>
+							</div>
+							<div class="Btn">
+								<button class="btn-danger hvr-grow-shadow " type="submit"> <span class="hvr-wobble-horizontal">Send &#8594;</span></button>
+							</div>
+
+						</form>
+					</ul>
+				</li>
+			</div>	
+		</div>
+		<div class="copy-right text-center">Copy-Right &copy;2021 <span> Your Template Name</span> .HR-7</div>	
+	</footer>
+	<!-- ---- End Footer ----  -->
+	
+
+	<!--استدعاء الجىكويرى-->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	
+	<!--استدعاء البوتستراب-->
+	<script src="js/bootstrap.js"></script>	
+
+
+	
+</body>
+</html>
